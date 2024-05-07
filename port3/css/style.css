@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,100;1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+::selection {
+    color: white;
+    background: black;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+input,
+button,
+textarea {
+    border: none;
+    outline: none;
+}
+
+.logo {
+    color: black;
+    letter-spacing: 1px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    left: 0%;
+    top: 0%;
+    width: 100%;
+    z-index: 1;
+    height: 70px;
+    /* background-color: #333; */
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li a {
+    height: 40px;
+    line-height: 43px;
+    margin: 3px;
+    padding: 0 22px;
+    display: flex;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 1px;
+    border-radius: 3px;
+    color: black;
+    background-color: white;
+}
+
+nav ul li a:hover {
+    background-color: #152D35;
+    color: white;
+    box-shadow: 5px 10px 30px #D4ECDD;
+}
+
+.main-heading {
+    width: 500px;
+    position: absolute;
+    left: 16%;
+    top: 47%;
+    transform: translate(-16%, -47%);
+}
+
+.main-heading h1 {
+    font-size: 50px;
+    margin: 0px;
+    letter-spacing: 1px;
+    color: black;
+}
+
+.main-heading p {
+    color: black;
+}
+
+.main-title {
+    width: auto;
+    height: 600px;
+    padding: 20px;
+    margin-top: 5px;
+    margin-bottom: 70px;
+    margin-right: 80px;
+    margin-left: 80px;
+    /* margin: 50px 10px 100px auto; */
+    background-image: url(../img/port5.jpeg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    font-size: x-large;
+}
+
+.main-title h1 {
+    margin: 0;
+    position: absolute;
+    top: 71%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    letter-spacing: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 50px;
+    justify-content: center;
+}
+
+.main-title p {
+    margin: 0;
+    position: absolute;
+    top: 79%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    letter-spacing: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    justify-content: center;
+}
+
+.body-content {
+    font-size: smaller;
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+}
+
+.aboutus-body {
+    text-align: center;
+    font-size: x-large;
+    font-style: normal;
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+}
+
+.aboutus-body {
+    margin-top: 110px;
+}
+
+.aboutus-body strong {
+    font-family: 'Roboto', sans-serif;
+    justify-content: center;
+    letter-spacing: 10px;
+    font-size: 70px;
+    margin-top: 100px;
+}
+
+.aboutus-body h2 {
+    text-align: center;
+    font-weight: 100;
+    letter-spacing: 10px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.aboutus-body p {
+    margin: 50px;
+}
+
+.aboutinfo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 50px;
+    letter-spacing: 1px;
+    font-size: medium;
+    font-style: oblique;
+    font-weight: 200;
+    text-align: justify;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: #F9F9F9;
+}
+
+.contactus-body {
+    text-align: center;
+    font-size: x-large;
+    font-style: normal;
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    margin-top: 110px;
+}
+
+.contactus-body strong {
+    justify-content: center;
+    letter-spacing: 10px;
+    font-size: 70px;
+    margin-top: 100px;
+}
+
+.contactus-body h2 {
+    text-align: center;
+    font-weight: 100;
+    letter-spacing: 10px;
+    font-size: 20px;
+}
+
+.footer {
+    background-color: white;
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+
+footer img {
+    height: 30px;
+    margin-left: 40px;
+}
+
+.copyright {
+    text-align: right;
+    margin-right: 5px;
+    font-size: 12px;
+    margin-right: 35px;
+}
